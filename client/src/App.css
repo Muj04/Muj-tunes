@@ -1,0 +1,51 @@
+/*ul{
+	display: inline-block;
+}*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #006080;
+  position: sticky;
+  bottom: 10vh;
+ 
+ 
+  
+}
+
+#navbar, li {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar,li:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar, li.active {
+  background-color: #b3ffda;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.sticky + .content {
+  padding-top: 60px;}
+
+  #logo {
+  	width: 600px; height: 500px;
+  }
